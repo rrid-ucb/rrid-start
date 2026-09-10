@@ -1,7 +1,7 @@
 # rrid-ucb/rrid-start
 
-You are joining the rrid development team. This script gets the `rrid`
-Mac account far enough to download the private team setup.
+You are joining the rrid development team. This script gets the
+`rrid` Mac account far enough to download the private team setup.
 
 You need the GitHub account that was invited to rrid-ucb.
 
