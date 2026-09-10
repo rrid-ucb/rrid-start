@@ -1,6 +1,6 @@
 #!/bin/bash
-# Public door into the private rrid-ucb/bootstrap recipe.
-# No secrets. No Brewfile. Run inside the rrid login after Fast User Switching.
+# Gets the rrid Mac login far enough to clone the private team setup.
+# No secrets. No Brewfile. Run only after you have switched to the rrid account.
 #
 #   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rrid-ucb/rrid-start/main/install.sh)"
 #
@@ -97,7 +97,7 @@ fi
 if ! gh auth status >/dev/null 2>&1; then
   echo ""
   echo "==> GitHub login"
-  echo "    Use YOUR GitHub user (the one invited to rrid-ucb), not a shared SPA."
+  echo "    Use YOUR GitHub user (the one invited to rrid-ucb), not a shared account."
   echo "    Safari is fine; Chrome profiles do not exist yet on this login."
   echo ""
   gh auth login --hostname github.com --git-protocol https --web
